@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<itdRequest xsi:noNamespaceSchemaLocation="itd.xsd" language="DE" sessionID="EfaOpenServiceT_3585521296"
+            client="python-requests/2.20.1" serverID="EfaOpenServiceT_" clientIP="127.0.0.1" version="10.2.10.135"
+            virtDir="static02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <itdDepartureMonitorRequest requestID="1">
+        <itdOdv type="stop" usage="dm" anyObjFilter="0">
+            <itdOdvPlace state="identified" method="itp">
+                <odvPlaceElem omc="5114000" value="5114000:20" placeID="20" mainPlace="1"
+                              stateless="placeID:5114000:20">Krefeld
+                </odvPlaceElem>
+                <odvPlaceInput></odvPlaceInput>
+            </itdOdvPlace>
+            <itdOdvName state="identified" method="itp">
+                <odvNameElem value="20021986:1" selected="0" stopID="20021986" x="733536" y="5322667" mapName="MRCV"
+                             isTransferStop="0" matchQuality="100000" stateless="20021986">Königshof
+                </odvNameElem>
+                <odvNameInput>20021986</odvNameInput>
+            </itdOdvName>
+        </itdOdv>
+        <itdDateTime ttpFrom="20180901" ttpTo="20190228">
+            <itdDate day="15" month="11" year="2018" weekday="5"></itdDate>
+            <itdTime hour="21" minute="6"></itdTime>
+        </itdDateTime>
+        <itdDateRange>
+            <itdDate day="15" month="11" year="2018" weekday="5"></itdDate>
+            <itdDate day="16" month="11" year="2018" weekday="6"></itdDate>
+            <itdDate day="17" month="11" year="2018" weekday="7"></itdDate>
+            <itdDate day="18" month="11" year="2018" weekday="1"></itdDate>
+            <itdDate day="19" month="11" year="2018" weekday="2"></itdDate>
+            <itdDate day="20" month="11" year="2018" weekday="3"></itdDate>
+            <itdDate day="21" month="11" year="2018" weekday="4"></itdDate>
+            <itdDate day="22" month="11" year="2018" weekday="5"></itdDate>
+            <itdDate day="23" month="11" year="2018" weekday="6"></itdDate>
+            <itdDate day="24" month="11" year="2018" weekday="7"></itdDate>
+            <itdDate day="25" month="11" year="2018" weekday="1"></itdDate>
+            <itdDate day="26" month="11" year="2018" weekday="2"></itdDate>
+            <itdDate day="27" month="11" year="2018" weekday="3"></itdDate>
+            <itdDate day="28" month="11" year="2018" weekday="4"></itdDate>
+            <itdDate day="29" month="11" year="2018" weekday="5"></itdDate>
+        </itdDateRange>
+        <itdServingLines>
+            <itdServingLine index="2:0" valid="Jahresfahrplan 2018 (07.01. - 05.01.2019)" code="1" number="U76"
+                            symbol="U76" direction="Düsseldorf Hbf" realtime="0" compound="0" selected="1" motType="2"
+                            TTB="0" STT="1" ROP="1" type="unknown" spTr="" destID="20018235"
+                            stateless="rbg:70076: :H:j18" trainName="" oK="21986" vF="20180107" vT="20190105">
+                <itdNoTrain name="U-Bahn"></itdNoTrain>
+                <motDivaParams project="j18" network="rbg" line="70076" supplement=" " direction="H"></motDivaParams>
+                <itdRouteDescText>Krefeld, Rheinstraße - Meerbusch - D-Lörick - Heinrich-Heine-Allee - Düsseldorf Hbf
+                </itdRouteDescText>
+                <itdOperator>
+                    <code>70</code>
+                    <name>Rheinbahn</name>
+                </itdOperator>
+            </itdServingLine>
+            <itdServingLine index="2:1" valid="Jahresfahrplan 2018 (07.01. - 05.01.2019)" code="1" number="U76"
+                            symbol="U76" direction="Krefeld Rheinstraße" realtime="0" compound="0" selected="0"
+                            motType="2" TTB="0" STT="1" ROP="1" type="unknown" spTr="" destID="20021001"
+                            stateless="rbg:70076: :R:j18" trainName="" oK="21986" vF="20180107" vT="20190105">
+                <itdNoTrain name="U-Bahn"></itdNoTrain>
+                <motDivaParams project="j18" network="rbg" line="70076" supplement=" " direction="R"></motDivaParams>
+                <itdRouteDescText>D-Handelszentrum/Moskauer Str. - Düsseldorf Hbf - H.-Heine-Allee - D-Lörick -
+                    Meerbusch - Krefeld, Rheinstraße
+                </itdRouteDescText>
+                <itdOperator>
+                    <code>70</code>
+                    <name>Rheinbahn</name>
+                </itdOperator>
+            </itdServingLine>
+        </itdServingLines>
+        <itdDepartureList>
+            <itdDeparture stopID="20021986" stopName="Krefeld Königshof" area="1" platform="1" platformName="Bstg. 1">
+                <itdDateTime>
+                    <itdDate day="15" month="11" year="2018" weekday="5"></itdDate>
+                    <itdTime hour="21" minute="19" ap=""></itdTime>
+                </itdDateTime>
+                <itdServingLine key="11" code="1" number="U76" symbol="U76" direction="D-Lörick"
+                                directionFrom="Krefeld Rheinstraße" realtime="1" motType="2" destID="20018140"
+                                stateless="rbg:70076: :H:j18">
+                    <itdNoTrain name="U-Bahn" delay="-9999"></itdNoTrain>
+                    <motDivaParams project="j18" network="rbg" line="70076" supplement=" "
+                                   direction="H"></motDivaParams>
+                    <itdRouteDescText>Krefeld, Rheinstraße - Meerbusch - D-Lörick - Heinrich-Heine-Allee - Düsseldorf
+                        Hbf
+                    </itdRouteDescText>
+                    <itdOperator>
+                        <code>70</code>
+                        <name>Rheinbahn</name>
+                    </itdOperator>
+                </itdServingLine>
+                <itdInfoLinkList>
+                    <itdLineInfoList>
+                        <infoLink>
+                            <paramList>
+                                <param>
+                                    <type>addInfoParam</type>
+                                    <name>infoType</name>
+                                    <value>lineInfo</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>infoID</name>
+                                    <value>191783</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>seqID</name>
+                                    <value>2</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>incidentDateTime</name>
+                                    <value>24/07/2018 10:00 - 12/07/2019 04:00</value>
+                                </param>
+                            </paramList>
+                            <infoLinkText></infoLinkText>
+                            <infoLinkURL>http://www.rheinbahn.de/Seiten/MeldungsDetail.aspx?Nr=191783</infoLinkURL>
+                            <infoLinkImage></infoLinkImage>
+                            <infoText>
+                                <content>&lt;DIV&gt;Die Haltestelle "Luegplatz" wird in den kommenden Monaten
+                                    barrierefrei mit Hochbahnsteigen für die Stadtbahnen umgebaut. Während der Bauphase
+                                    wird die Haltestelle für die &lt;STRONG&gt;Linien U70, U74, U75, U76 und U77 &lt;/STRONG&gt;verlegt
+                                    - &lt;STRONG&gt;ab Dienstag, 24. Juli, 10 Uhr, für etwa ein Jahr&lt;/STRONG&gt;. Die
+                                    Haltestelle befindet sich in dieser Zeit auf der Luegallee in Höhe der Kreuzung mit
+                                    der Marktgrafenstraße und der Burggrafenstraße. &lt;/DIV&gt;
+                                    &lt;DIV&gt;&amp;nbsp;&lt;/DIV&gt;
+                                    &lt;DIV&gt;
+                                    &lt;DIV&gt;Für die &lt;STRONG&gt;Buslinie 805 &lt;/STRONG&gt;wird die Haltestelle
+                                    "Luegplatz" der in Richtung Belsenplatz ebenfalls verlegt. Sie befindet sich für
+                                    etwa ein Jahr auf der Luegallee zwischen den Einmündungen der Burggrafenstraße. &lt;BR&gt;&lt;BR&gt;&lt;A
+                                    href="http://www.rheinbahn.de/presse/mitteilungen/Seiten/PressReportDetail.aspx?Nr=192691"&gt;Mehr
+                                    Informationen zum Umbau der Haltestelle "Luegplatz"&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+                                </content>
+                                <subtitle>Haltestelle "Luegplatz" wird verlegt</subtitle>
+                                <subject>Linien U70, U74, U75, U76, U77 und 805:</subject>
+                                <additionalText></additionalText>
+                                <image></image>
+                                <outputClientText>
+                                    <htmlText></htmlText>
+                                    <wmlText>Die Haltestelle "Luegplatz" wird in den kommenden Monaten barrierefrei mit
+                                        Hochbahnsteigen für die Stadtbahn umgebaut. Während der Bauphase wird die
+                                        Haltestelle der Linien U70, U74, U75, U76 verlegt - ab Dienstag, 24. Ju
+                                    </wmlText>
+                                    <smsText>Die Haltestelle "Luegplatz" wird in den kommenden Monaten barrierefrei mit
+                                        Hochbahnsteigen für die Stadtbahn umgebaut. Während der Bauphase wird die
+                                        Haltestelle der Linien U70, U74, U75, U76 verlegt - ab Dienstag, 24. Ju
+                                    </smsText>
+                                    <speechText></speechText>
+                                </outputClientText>
+                            </infoText>
+                        </infoLink>
+                        <infoLink>
+                            <paramList>
+                                <param>
+                                    <type>addInfoParam</type>
+                                    <name>infoType</name>
+                                    <value>lineInfo</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>infoID</name>
+                                    <value>198720</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>seqID</name>
+                                    <value>4</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>incidentDateTime</name>
+                                    <value>12/10/2018 04:00 - 25/01/2019 04:00</value>
+                                </param>
+                            </paramList>
+                            <infoLinkText></infoLinkText>
+                            <infoLinkURL>http://www.rheinbahn.de/Seiten/MeldungsDetail.aspx?Nr=198720</infoLinkURL>
+                            <infoLinkImage></infoLinkImage>
+                            <infoText>
+                                <content>&lt;DIV&gt;Wegen umfangreichen Sanierungsarbeiten muss am Hauptbahnhof der
+                                    Aufzug zu den &lt;STRONG&gt;Gleisen&amp;nbsp;2 und&amp;nbsp;4&lt;/STRONG&gt; der
+                                    &lt;STRONG&gt;U-Bahnlinien U74, U77 und U79 in Richtung Oberbilk&lt;/STRONG&gt; und
+                                    der &lt;STRONG&gt;Linie U75 in Richtung Eller &lt;/STRONG&gt;gesperrt werden - &lt;STRONG&gt;von
+                                    Freitag, 12. Oktober, bis Freitag, 25. Januar 2019&lt;/STRONG&gt;.&lt;/DIV&gt;
+                                    &lt;DIV&gt;&amp;nbsp;&lt;/DIV&gt;
+                                    &lt;DIV&gt;Die mobilitätseingeschränkten Fahrgäste, die vom Hauptbahnhof aus in
+                                    Richtung Oberbilk und Eller fahren möchten, können von den gegenüberliegenden
+                                    Gleisen 1 und 3 mit den U-Bahnlinien bis zur Haltestelle "Oststraße" fahren und
+                                    gelangen hier mit dem Aufzug auf die Bahnsteige zurück in Richtung Oberbilk und
+                                    Eller.&lt;/DIV&gt;
+                                    &lt;DIV&gt;&amp;nbsp;&lt;/DIV&gt;
+                                    &lt;DIV&gt;Mobilitätseingeschränkte Fahrgäste mit dem Ziel "Hauptbahnhof" können mit
+                                    den U-Bahnlinien U74, U77 und U79 bis zur Haltestelle "Oberbilker Markt" oder mit
+                                    der Linie U75 bis zur Haltestelle "Handelszentrum/Moskauer Straße" weiterfahren,
+                                    wechseln hier auf den gegenüberliegenden Bahnsteig und fahren mit den U-Bahnlinien
+                                    wieder eine Haltestelle zurück zur Haltestelle "Hauptbahnhof".&lt;/DIV&gt;
+                                    &lt;DIV&gt;&amp;nbsp;&lt;/DIV&gt;
+                                    &lt;DIV&gt;&lt;A
+                                    href="http://www.rheinbahn.de/fahrplan/Broschren%20%20Flyer/Handzettel_Aufz%C3%BCge_Hauptbahnhof.pdf"&gt;Mehr
+                                    Informationen im Handzettel&lt;/A&gt;&lt;/DIV&gt;
+                                </content>
+                                <subtitle>Aufzug am U-Bahnhof "Hauptbahnhof" außer Betrieb</subtitle>
+                                <subject>Umfangreiche Sanierungsarbeiten:</subject>
+                                <additionalText></additionalText>
+                                <image></image>
+                                <outputClientText>
+                                    <htmlText></htmlText>
+                                    <wmlText>Wegen Sanierungsarbeiten muss am Hauptbahnhof der Aufzug zu den Gleisen 2
+                                        und 4 der U-Bahnlinien U70 und U74 bis U79 Richtung Heinrich-Heine-Allee
+                                        gesperrt werden - von Freitag, 12. Oktober, bis Freitag, 2. Januar 2019.
+                                    </wmlText>
+                                    <smsText>Wegen Sanierungsarbeiten muss am Hauptbahnhof der Aufzug zu den Gleisen 2
+                                        und 4 der U-Bahnlinien U70 und U74 bis U79 Richtung Heinrich-Heine-Allee
+                                        gesperrt werden - von Freitag, 12. Oktober, bis Freitag, 2. Januar 2019.
+                                    </smsText>
+                                    <speechText></speechText>
+                                </outputClientText>
+                            </infoText>
+                        </infoLink>
+                    </itdLineInfoList>
+                </itdInfoLinkList>
+            </itdDeparture>
+            <itdDeparture stopID="20021986" stopName="Krefeld Königshof" area="1" platform="1" platformName="Bstg. 1">
+                <itdDateTime>
+                    <itdDate day="15" month="11" year="2018" weekday="5"></itdDate>
+                    <itdTime hour="21" minute="29" ap=""></itdTime>
+                </itdDateTime>
+                <itdRTDateTime>
+                    <itdDate day="15" month="11" year="2018" weekday="5"></itdDate>
+                    <itdTime hour="21" minute="29" ap=""></itdTime>
+                </itdRTDateTime>
+                <itdServingLine key="89" code="1" number="U76" symbol="U76" direction="D-Belsenplatz"
+                                directionFrom="Krefeld Rheinstraße" realtime="1" motType="2" destID="20018273"
+                                stateless="rbg:70076: :H:j18">
+                    <itdNoTrain name="U-Bahn" delay="0"></itdNoTrain>
+                    <motDivaParams project="j18" network="rbg" line="70076" supplement=" "
+                                   direction="H"></motDivaParams>
+                    <itdRouteDescText>Krefeld, Rheinstraße - Meerbusch - D-Lörick - Heinrich-Heine-Allee - Düsseldorf
+                        Hbf
+                    </itdRouteDescText>
+                    <itdOperator>
+                        <code>70</code>
+                        <name>Rheinbahn</name>
+                    </itdOperator>
+                </itdServingLine>
+                <itdInfoLinkList>
+                    <itdLineInfoList>
+                        <infoLink>
+                            <paramList>
+                                <param>
+                                    <type>addInfoParam</type>
+                                    <name>infoType</name>
+                                    <value>lineInfo</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>infoID</name>
+                                    <value>191783</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>seqID</name>
+                                    <value>2</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>incidentDateTime</name>
+                                    <value>24/07/2018 10:00 - 12/07/2019 04:00</value>
+                                </param>
+                            </paramList>
+                            <infoLinkText></infoLinkText>
+                            <infoLinkURL>http://www.rheinbahn.de/Seiten/MeldungsDetail.aspx?Nr=191783</infoLinkURL>
+                            <infoLinkImage></infoLinkImage>
+                            <infoText>
+                                <content>&lt;DIV&gt;Die Haltestelle "Luegplatz" wird in den kommenden Monaten
+                                    barrierefrei mit Hochbahnsteigen für die Stadtbahnen umgebaut. Während der Bauphase
+                                    wird die Haltestelle für die &lt;STRONG&gt;Linien U70, U74, U75, U76 und U77 &lt;/STRONG&gt;verlegt
+                                    - &lt;STRONG&gt;ab Dienstag, 24. Juli, 10 Uhr, für etwa ein Jahr&lt;/STRONG&gt;. Die
+                                    Haltestelle befindet sich in dieser Zeit auf der Luegallee in Höhe der Kreuzung mit
+                                    der Marktgrafenstraße und der Burggrafenstraße. &lt;/DIV&gt;
+                                    &lt;DIV&gt;&amp;nbsp;&lt;/DIV&gt;
+                                    &lt;DIV&gt;
+                                    &lt;DIV&gt;Für die &lt;STRONG&gt;Buslinie 805 &lt;/STRONG&gt;wird die Haltestelle
+                                    "Luegplatz" der in Richtung Belsenplatz ebenfalls verlegt. Sie befindet sich für
+                                    etwa ein Jahr auf der Luegallee zwischen den Einmündungen der Burggrafenstraße. &lt;BR&gt;&lt;BR&gt;&lt;A
+                                    href="http://www.rheinbahn.de/presse/mitteilungen/Seiten/PressReportDetail.aspx?Nr=192691"&gt;Mehr
+                                    Informationen zum Umbau der Haltestelle "Luegplatz"&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+                                </content>
+                                <subtitle>Haltestelle "Luegplatz" wird verlegt</subtitle>
+                                <subject>Linien U70, U74, U75, U76, U77 und 805:</subject>
+                                <additionalText></additionalText>
+                                <image></image>
+                                <outputClientText>
+                                    <htmlText></htmlText>
+                                    <wmlText>Die Haltestelle "Luegplatz" wird in den kommenden Monaten barrierefrei mit
+                                        Hochbahnsteigen für die Stadtbahn umgebaut. Während der Bauphase wird die
+                                        Haltestelle der Linien U70, U74, U75, U76 verlegt - ab Dienstag, 24. Ju
+                                    </wmlText>
+                                    <smsText>Die Haltestelle "Luegplatz" wird in den kommenden Monaten barrierefrei mit
+                                        Hochbahnsteigen für die Stadtbahn umgebaut. Während der Bauphase wird die
+                                        Haltestelle der Linien U70, U74, U75, U76 verlegt - ab Dienstag, 24. Ju
+                                    </smsText>
+                                    <speechText></speechText>
+                                </outputClientText>
+                            </infoText>
+                        </infoLink>
+                        <infoLink>
+                            <paramList>
+                                <param>
+                                    <type>addInfoParam</type>
+                                    <name>infoType</name>
+                                    <value>lineInfo</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>infoID</name>
+                                    <value>198720</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>seqID</name>
+                                    <value>4</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>incidentDateTime</name>
+                                    <value>12/10/2018 04:00 - 25/01/2019 04:00</value>
+                                </param>
+                            </paramList>
+                            <infoLinkText></infoLinkText>
+                            <infoLinkURL>http://www.rheinbahn.de/Seiten/MeldungsDetail.aspx?Nr=198720</infoLinkURL>
+                            <infoLinkImage></infoLinkImage>
+                            <infoText>
+                                <content>&lt;DIV&gt;Wegen umfangreichen Sanierungsarbeiten muss am Hauptbahnhof der
+                                    Aufzug zu den &lt;STRONG&gt;Gleisen&amp;nbsp;2 und&amp;nbsp;4&lt;/STRONG&gt; der
+                                    &lt;STRONG&gt;U-Bahnlinien U74, U77 und U79 in Richtung Oberbilk&lt;/STRONG&gt; und
+                                    der &lt;STRONG&gt;Linie U75 in Richtung Eller &lt;/STRONG&gt;gesperrt werden - &lt;STRONG&gt;von
+                                    Freitag, 12. Oktober, bis Freitag, 25. Januar 2019&lt;/STRONG&gt;.&lt;/DIV&gt;
+                                    &lt;DIV&gt;&amp;nbsp;&lt;/DIV&gt;
+                                    &lt;DIV&gt;Die mobilitätseingeschränkten Fahrgäste, die vom Hauptbahnhof aus in
+                                    Richtung Oberbilk und Eller fahren möchten, können von den gegenüberliegenden
+                                    Gleisen 1 und 3 mit den U-Bahnlinien bis zur Haltestelle "Oststraße" fahren und
+                                    gelangen hier mit dem Aufzug auf die Bahnsteige zurück in Richtung Oberbilk und
+                                    Eller.&lt;/DIV&gt;
+                                    &lt;DIV&gt;&amp;nbsp;&lt;/DIV&gt;
+                                    &lt;DIV&gt;Mobilitätseingeschränkte Fahrgäste mit dem Ziel "Hauptbahnhof" können mit
+                                    den U-Bahnlinien U74, U77 und U79 bis zur Haltestelle "Oberbilker Markt" oder mit
+                                    der Linie U75 bis zur Haltestelle "Handelszentrum/Moskauer Straße" weiterfahren,
+                                    wechseln hier auf den gegenüberliegenden Bahnsteig und fahren mit den U-Bahnlinien
+                                    wieder eine Haltestelle zurück zur Haltestelle "Hauptbahnhof".&lt;/DIV&gt;
+                                    &lt;DIV&gt;&amp;nbsp;&lt;/DIV&gt;
+                                    &lt;DIV&gt;&lt;A
+                                    href="http://www.rheinbahn.de/fahrplan/Broschren%20%20Flyer/Handzettel_Aufz%C3%BCge_Hauptbahnhof.pdf"&gt;Mehr
+                                    Informationen im Handzettel&lt;/A&gt;&lt;/DIV&gt;
+                                </content>
+                                <subtitle>Aufzug am U-Bahnhof "Hauptbahnhof" außer Betrieb</subtitle>
+                                <subject>Umfangreiche Sanierungsarbeiten:</subject>
+                                <additionalText></additionalText>
+                                <image></image>
+                                <outputClientText>
+                                    <htmlText></htmlText>
+                                    <wmlText>Wegen Sanierungsarbeiten muss am Hauptbahnhof der Aufzug zu den Gleisen 2
+                                        und 4 der U-Bahnlinien U70 und U74 bis U79 Richtung Heinrich-Heine-Allee
+                                        gesperrt werden - von Freitag, 12. Oktober, bis Freitag, 2. Januar 2019.
+                                    </wmlText>
+                                    <smsText>Wegen Sanierungsarbeiten muss am Hauptbahnhof der Aufzug zu den Gleisen 2
+                                        und 4 der U-Bahnlinien U70 und U74 bis U79 Richtung Heinrich-Heine-Allee
+                                        gesperrt werden - von Freitag, 12. Oktober, bis Freitag, 2. Januar 2019.
+                                    </smsText>
+                                    <speechText></speechText>
+                                </outputClientText>
+                            </infoText>
+                        </infoLink>
+                    </itdLineInfoList>
+                </itdInfoLinkList>
+                <genAttrList></genAttrList>
+            </itdDeparture>
+            <itdDeparture stopID="20021986" stopName="Krefeld Königshof" area="1" platform="1" platformName="Bstg. 1">
+                <itdDateTime>
+                    <itdDate day="15" month="11" year="2018" weekday="5"></itdDate>
+                    <itdTime hour="21" minute="47" ap=""></itdTime>
+                </itdDateTime>
+                <itdRTDateTime>
+                    <itdDate day="15" month="11" year="2018" weekday="5"></itdDate>
+                    <itdTime hour="21" minute="48" ap=""></itdTime>
+                </itdRTDateTime>
+                <itdServingLine key="12" code="1" number="U76" symbol="U76" direction="D-Lörick"
+                                directionFrom="Krefeld Rheinstraße" realtime="1" motType="2" destID="20018140"
+                                stateless="rbg:70076: :H:j18">
+                    <itdNoTrain name="U-Bahn" delay="1"></itdNoTrain>
+                    <motDivaParams project="j18" network="rbg" line="70076" supplement=" "
+                                   direction="H"></motDivaParams>
+                    <itdRouteDescText>Krefeld, Rheinstraße - Meerbusch - D-Lörick - Heinrich-Heine-Allee - Düsseldorf
+                        Hbf
+                    </itdRouteDescText>
+                    <itdOperator>
+                        <code>70</code>
+                        <name>Rheinbahn</name>
+                    </itdOperator>
+                </itdServingLine>
+                <itdInfoLinkList>
+                    <itdLineInfoList>
+                        <infoLink>
+                            <paramList>
+                                <param>
+                                    <type>addInfoParam</type>
+                                    <name>infoType</name>
+                                    <value>lineInfo</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>infoID</name>
+                                    <value>191783</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>seqID</name>
+                                    <value>2</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>incidentDateTime</name>
+                                    <value>24/07/2018 10:00 - 12/07/2019 04:00</value>
+                                </param>
+                            </paramList>
+                            <infoLinkText></infoLinkText>
+                            <infoLinkURL>http://www.rheinbahn.de/Seiten/MeldungsDetail.aspx?Nr=191783</infoLinkURL>
+                            <infoLinkImage></infoLinkImage>
+                            <infoText>
+                                <content>&lt;DIV&gt;Die Haltestelle "Luegplatz" wird in den kommenden Monaten
+                                    barrierefrei mit Hochbahnsteigen für die Stadtbahnen umgebaut. Während der Bauphase
+                                    wird die Haltestelle für die &lt;STRONG&gt;Linien U70, U74, U75, U76 und U77 &lt;/STRONG&gt;verlegt
+                                    - &lt;STRONG&gt;ab Dienstag, 24. Juli, 10 Uhr, für etwa ein Jahr&lt;/STRONG&gt;. Die
+                                    Haltestelle befindet sich in dieser Zeit auf der Luegallee in Höhe der Kreuzung mit
+                                    der Marktgrafenstraße und der Burggrafenstraße. &lt;/DIV&gt;
+                                    &lt;DIV&gt;&amp;nbsp;&lt;/DIV&gt;
+                                    &lt;DIV&gt;
+                                    &lt;DIV&gt;Für die &lt;STRONG&gt;Buslinie 805 &lt;/STRONG&gt;wird die Haltestelle
+                                    "Luegplatz" der in Richtung Belsenplatz ebenfalls verlegt. Sie befindet sich für
+                                    etwa ein Jahr auf der Luegallee zwischen den Einmündungen der Burggrafenstraße. &lt;BR&gt;&lt;BR&gt;&lt;A
+                                    href="http://www.rheinbahn.de/presse/mitteilungen/Seiten/PressReportDetail.aspx?Nr=192691"&gt;Mehr
+                                    Informationen zum Umbau der Haltestelle "Luegplatz"&lt;/A&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+                                </content>
+                                <subtitle>Haltestelle "Luegplatz" wird verlegt</subtitle>
+                                <subject>Linien U70, U74, U75, U76, U77 und 805:</subject>
+                                <additionalText></additionalText>
+                                <image></image>
+                                <outputClientText>
+                                    <htmlText></htmlText>
+                                    <wmlText>Die Haltestelle "Luegplatz" wird in den kommenden Monaten barrierefrei mit
+                                        Hochbahnsteigen für die Stadtbahn umgebaut. Während der Bauphase wird die
+                                        Haltestelle der Linien U70, U74, U75, U76 verlegt - ab Dienstag, 24. Ju
+                                    </wmlText>
+                                    <smsText>Die Haltestelle "Luegplatz" wird in den kommenden Monaten barrierefrei mit
+                                        Hochbahnsteigen für die Stadtbahn umgebaut. Während der Bauphase wird die
+                                        Haltestelle der Linien U70, U74, U75, U76 verlegt - ab Dienstag, 24. Ju
+                                    </smsText>
+                                    <speechText></speechText>
+                                </outputClientText>
+                            </infoText>
+                        </infoLink>
+                        <infoLink>
+                            <paramList>
+                                <param>
+                                    <type>addInfoParam</type>
+                                    <name>infoType</name>
+                                    <value>lineInfo</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>infoID</name>
+                                    <value>198720</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>seqID</name>
+                                    <value>4</value>
+                                </param>
+                                <param>
+                                    <type>system</type>
+                                    <name>incidentDateTime</name>
+                                    <value>12/10/2018 04:00 - 25/01/2019 04:00</value>
+                                </param>
+                            </paramList>
+                            <infoLinkText></infoLinkText>
+                            <infoLinkURL>http://www.rheinbahn.de/Seiten/MeldungsDetail.aspx?Nr=198720</infoLinkURL>
+                            <infoLinkImage></infoLinkImage>
+                            <infoText>
+                                <content>&lt;DIV&gt;Wegen umfangreichen Sanierungsarbeiten muss am Hauptbahnhof der
+                                    Aufzug zu den &lt;STRONG&gt;Gleisen&amp;nbsp;2 und&amp;nbsp;4&lt;/STRONG&gt; der
+                                    &lt;STRONG&gt;U-Bahnlinien U74, U77 und U79 in Richtung Oberbilk&lt;/STRONG&gt; und
+                                    der &lt;STRONG&gt;Linie U75 in Richtung Eller &lt;/STRONG&gt;gesperrt werden - &lt;STRONG&gt;von
+                                    Freitag, 12. Oktober, bis Freitag, 25. Januar 2019&lt;/STRONG&gt;.&lt;/DIV&gt;
+                                    &lt;DIV&gt;&amp;nbsp;&lt;/DIV&gt;
+                                    &lt;DIV&gt;Die mobilitätseingeschränkten Fahrgäste, die vom Hauptbahnhof aus in
+                                    Richtung Oberbilk und Eller fahren möchten, können von den gegenüberliegenden
+                                    Gleisen 1 und 3 mit den U-Bahnlinien bis zur Haltestelle "Oststraße" fahren und
+                                    gelangen hier mit dem Aufzug auf die Bahnsteige zurück in Richtung Oberbilk und
+                                    Eller.&lt;/DIV&gt;
+                                    &lt;DIV&gt;&amp;nbsp;&lt;/DIV&gt;
+                                    &lt;DIV&gt;Mobilitätseingeschränkte Fahrgäste mit dem Ziel "Hauptbahnhof" können mit
+                                    den U-Bahnlinien U74, U77 und U79 bis zur Haltestelle "Oberbilker Markt" oder mit
+                                    der Linie U75 bis zur Haltestelle "Handelszentrum/Moskauer Straße" weiterfahren,
+                                    wechseln hier auf den gegenüberliegenden Bahnsteig und fahren mit den U-Bahnlinien
+                                    wieder eine Haltestelle zurück zur Haltestelle "Hauptbahnhof".&lt;/DIV&gt;
+                                    &lt;DIV&gt;&amp;nbsp;&lt;/DIV&gt;
+                                    &lt;DIV&gt;&lt;A
+                                    href="http://www.rheinbahn.de/fahrplan/Broschren%20%20Flyer/Handzettel_Aufz%C3%BCge_Hauptbahnhof.pdf"&gt;Mehr
+                                    Informationen im Handzettel&lt;/A&gt;&lt;/DIV&gt;
+                                </content>
+                                <subtitle>Aufzug am U-Bahnhof "Hauptbahnhof" außer Betrieb</subtitle>
+                                <subject>Umfangreiche Sanierungsarbeiten:</subject>
+                                <additionalText></additionalText>
+                                <image></image>
+                                <outputClientText>
+                                    <htmlText></htmlText>
+                                    <wmlText>Wegen Sanierungsarbeiten muss am Hauptbahnhof der Aufzug zu den Gleisen 2
+                                        und 4 der U-Bahnlinien U70 und U74 bis U79 Richtung Heinrich-Heine-Allee
+                                        gesperrt werden - von Freitag, 12. Oktober, bis Freitag, 2. Januar 2019.
+                                    </wmlText>
+                                    <smsText>Wegen Sanierungsarbeiten muss am Hauptbahnhof der Aufzug zu den Gleisen 2
+                                        und 4 der U-Bahnlinien U70 und U74 bis U79 Richtung Heinrich-Heine-Allee
+                                        gesperrt werden - von Freitag, 12. Oktober, bis Freitag, 2. Januar 2019.
+                                    </smsText>
+                                    <speechText></speechText>
+                                </outputClientText>
+                            </infoText>
+                        </infoLink>
+                    </itdLineInfoList>
+                </itdInfoLinkList>
+                <genAttrList></genAttrList>
+            </itdDeparture>
+        </itdDepartureList>
+    </itdDepartureMonitorRequest>
+</itdRequest>
